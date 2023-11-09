@@ -1,0 +1,36 @@
+.statistics {
+  margin-top: 30px;
+  padding-top: 20px;
+  border: 1px solid #ccc;
+  width: 400px;
+  height: 106px;
+  text-align: center;
+  box-shadow: 1px 1px 3px 1px #575757;
+  background-color: beige;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  color: #434040;
+}
+
+.list {
+  list-style-type: none;
+  display: grid;
+  padding: 0;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0px;
+}
+
+.list:hover {
+  scale: 1.02;
+}
+
+.item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
